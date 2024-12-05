@@ -24,7 +24,7 @@ function Precios({ id }: PreciosProps) {
             Disfruta de nuestras canchas de tenis disponibles todos los días.
           </p>
           <p className="text-xl font-bold text-green-500 mb-2">
-            <span className="font-bold text-gray-800 text-2xl">1h:</span>{" "}
+            <span className="font-bold text-gray-800 text-2xl">1h:</span>
             $12,000
           </p>
           <p className="text-xl text-gray-800 mb-6 flex flex-col">
@@ -41,34 +41,6 @@ function Precios({ id }: PreciosProps) {
             </span>
           </p>
         </div>
-        {/* <div className="bg-white shadow-md rounded-lg p-8">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-            Clases de Tenis
-          </h3>
-          <p className="text-lg text-gray-600 mb-4">
-            Aprende y mejora tus habilidades con clases impartidas por
-            entrenadores profesionales.
-          </p>
-          <ul className="text-gray-600 mb-6 text-left max-w-md mx-auto">
-            <li className="mb-2">
-              🧒 <span className="font-semibold">Clases para niños: </span>
-              Introducción al tenis en un entorno divertido.
-            </li>
-            <li className="mb-2">
-              👦{" "}
-              <span className="font-semibold">Clases para adolescentes: </span>
-              Perfeccionamiento técnico y táctico.
-            </li>
-            <li className="mb-2">
-              🧑 <span className="font-semibold">Clases para adultos: </span>
-              Desde principiantes hasta jugadores avanzados.
-            </li>
-          </ul>
-          <p className="text-gray-600">Contáctanos para más información.</p>
-          <p className="text-gray-600 flex items-center justify-center gap-2 mt-2">
-            <FaPhone /> 011 4444-5555
-          </p>
-        </div> */}
       </div>
     </section>
   );

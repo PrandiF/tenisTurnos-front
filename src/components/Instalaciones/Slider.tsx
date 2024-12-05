@@ -1,14 +1,13 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
 // AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { TenisPics } from "./TenisData";
+import { Swiper, SwiperSlide } from "swiper/react";
+import {Autoplay, Pagination, Navigation } from "swiper/modules";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation'
 
 function Slider() {
   useEffect(() => {
@@ -24,9 +23,13 @@ function Slider() {
           pagination={{
             clickable: true,
           }}
+          // autoplay={{
+          //   delay: 2000,
+          //   disableOnInteraction: false,
+          // }}
           loop={true}
           navigation={true}
-          modules={[Pagination, Navigation]}
+          modules={[Autoplay, Pagination, Navigation]}
           className="h-[23rem] w-full flex items-center justify-center mx-auto"
           data-aos="fade-up"
           data-aos-delay="400"

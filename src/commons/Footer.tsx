@@ -8,7 +8,7 @@ function Footer({ id }: FooterProps) {
     <footer className="bg-gradient-to-b from-transparent to-black text-white py-8 z-30 relative" id={id}>
       <div className="container mx-auto xl:px-0 px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {/* Columna 1: Redes Sociales */}
+          
           <div className="flex flex-col items-start">
             <h3 className="xl:text-xl font-semibold mb-2 underline">Síguenos</h3>
             <a
@@ -22,7 +22,6 @@ function Footer({ id }: FooterProps) {
             </a>
           </div>
 
-          {/* Columna 2: Contacto */}
           <div className="flex flex-col items-start">
             <h3 className="xl:text-xl font-semibold mb-2 underline">Contacto</h3>
             <p className="flex items-center gap-2 text-lg">
@@ -35,7 +34,6 @@ function Footer({ id }: FooterProps) {
             </p>
           </div>
 
-          {/* Columna 3: Página web */}
           <div className="flex flex-col items-start w-full mx-auto">
             <h3 className="xl:text-xl font-semibold mb-2 underline">
               Visita nuestra web
@@ -51,7 +49,6 @@ function Footer({ id }: FooterProps) {
             </a>
           </div>
 
-          {/* Columna 4: Información adicional (si es necesario) */}
           <div className="xl:flex hidden flex-col items-start">
             <h3 className="xl:text-xl font-semibold mb-2 underline">
               Sobre nosotros

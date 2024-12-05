@@ -1,14 +1,13 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
-
 //AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { TenisPics } from "./TenisData";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 function SliderResponsive() {
   useEffect(() => {
@@ -18,21 +17,18 @@ function SliderResponsive() {
   return (
     <div className="xl:hidden md:hidden flex flex-col w-screen relative">
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
         slidesPerView={1}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2,
-          slideShadows: false,
+        spaceBetween={0}
+        pagination={{
+          clickable: true,
         }}
-        pagination={{ dynamicBullets: true, clickable: true }}
+        // autoplay={{
+        //   delay: 2000,
+        //   disableOnInteraction: false,
+        // }}
+        loop={true}
         navigation={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="h-full w-[90%] relative flex items-center justify-center m-auto rounded-xl"
         data-aos="fade-up"
         data-aos-delay="400"
