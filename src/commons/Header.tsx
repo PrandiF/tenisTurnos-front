@@ -1,7 +1,5 @@
 import logo from "../assets/gevpLogo.png";
-// import { IoMenu } from "react-icons/io5";
 import { Link } from "react-scroll";
-import HeaderResponsive from "./HeaderResponsive";
 
 function Header() {
   return (
@@ -17,9 +15,6 @@ function Header() {
         >
           Inicio
         </Link>
-        {/* <Link className="cursor-pointer hover:underline" to="" smooth="true">
-          Reservar
-        </Link> */}
         <Link
           className="cursor-pointer hover:underline"
           to="PRECIOS"
@@ -42,10 +37,6 @@ function Header() {
           Contacto
         </Link>
       </div>
-     
-      {/* <div className="xl:hidden flex xl:gap-6 gap-3 items-center font-semibold xl:text-xl text-lg font-titilliumWeb">
-        <IoMenu className="text-4xl" />
-      </div> */}
     </div>
   );
 }

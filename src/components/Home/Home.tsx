@@ -8,10 +8,13 @@ type HomeProps = {
 
 function Home({ id }: HomeProps) {
   return (
-    <section className="py-14 bg-transparent text-center relative z-30 w-screen mb-[10%] xl:mt-0 mt-[15%]" id={id}>
+    <section
+      className="py-14 bg-transparent text-center relative z-30 w-screen mb-[10%] xl:mt-0 mt-[15%]"
+      id={id}
+    >
       <div className="xl:max-w-4xl mx-auto xl:px-0 px-2">
-        <Title title="¡Bienvenidos a GEVP!"/>
-        {/* <h1 className="text-4xl font-bold mb-4">¡Bienvenidos a GEVP!</h1> */}
+        <Title title="¡Bienvenidos a GEVP!" />
+
         <p className="text-lg mb-8">
           Tu espacio ideal para disfrutar del tenis en nuestras canchas de
           primer nivel.
