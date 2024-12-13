@@ -16,8 +16,8 @@ function Precios({ id }: PreciosProps) {
       <div className="container mx-auto px-6 text-center" >
         <Title title="Tarifas y Promociones" />
 
-        <div className="bg-white shadow-md rounded-lg p-8 mb-12" data-aos="fade" data-aos-delay="400">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-800">
+        <div className="bg-white shadow-2xl rounded-lg p-8 mb-12" data-aos="fade" data-aos-delay="400">
+          <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
             Alquiler de Canchas
           </h3>
           <p className="text-lg text-gray-600 mb-4">

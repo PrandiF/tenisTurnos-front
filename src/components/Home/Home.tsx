@@ -33,14 +33,14 @@ function Home({ id }: HomeProps) {
           <Link to="INSTALACIONES" smooth="true">
             <Card
               title="Conocé nuestras instalaciones"
-              text="Explorá fotos y detalles de nuestras canchas techadas y al aire
+              text="Explorá fotos y detalles de nuestros jugadores y canchas al aire
               libre."
             />
           </Link>
           <Link to="PRECIOS" smooth="true">
             <Card
-              title="Consultá precios"
-              text="Tarifas claras y accesibles para que disfrutes sin preocupaciones."
+              title="Aprendé con nosotros"
+              text="Tarifas claras y accesibles para que aprendas y disfrutes sin preocupaciones."
             />
           </Link>
           <Link to="MASINFO" smooth="true">

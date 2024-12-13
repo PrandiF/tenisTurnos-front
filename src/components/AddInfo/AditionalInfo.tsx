@@ -19,11 +19,11 @@ function AditionalInfo({ id }: AddInfoProps) {
         <Title title="Información Adicional" />
 
         <div
-          className="bg-white shadow-md rounded-lg p-8"
+          className="bg-white shadow-2xl rounded-lg p-8"
           data-aos="fade"
           data-aos-delay="400"
         >
-          <h3 className="text-2xl font-semibold mb-4 text-gray-800">
+          <h3 className="text-3xl font-semibold mb-4 text-[#6EC1E4]">
             Clases de Tenis
           </h3>
           <p className="text-lg text-gray-600 mb-4">

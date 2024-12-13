@@ -19,7 +19,7 @@ function InstalSection({ id }: InstalSectionProps) {
         <Title title="Nuestras Instalaciones" />
       </div>
 
-      <div className="xl:w-[80%] w-[90%] bg-white p-[40px] flex mx-auto items-center justify-center rounded-xl flex-col gap-5">
+      <div className="xl:w-[80%] w-[90%] bg-white shadow-2xl p-[40px] flex mx-auto items-center justify-center rounded-xl flex-col gap-5">
         <div
           className="w-full text-black flex justify-center items-center xl:text-2xl text-xl text-center"
           data-aos="fade"
