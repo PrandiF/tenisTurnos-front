@@ -21,7 +21,7 @@ function Home({ id }: HomeProps) {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:px-0 px-4">
           <a
-            href="https://app.acuityscheduling.com/schedule.php?owner=33987042"
+            href="https://app.acuityscheduling.com/schedule.php?owner=34591531"
             target="_blank"
           >
             <Card
